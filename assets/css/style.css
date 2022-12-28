@@ -84,9 +84,11 @@ h6 {
 
 #header .profile img {
   margin: 15px auto;
-  display: block;
+  display: flex;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  height: auto;
+  top: auto;
+  
 }
 
 #header .profile h1 {
@@ -228,7 +230,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/carro.jpeg") top center;
+  background: url("../img/carro.jpg") top center;
   background-size: cover;
 }
 
