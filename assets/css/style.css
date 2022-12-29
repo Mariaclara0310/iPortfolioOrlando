@@ -228,10 +228,15 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
-  height: 100vh;
-  background: url("../img/carro.jpg") top center;
+  position: relative;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  height: 500px;
+  background: url("../img/Captura.PNG") top center ;
+  
+ 
 }
 
 #hero:before {
@@ -289,6 +294,12 @@ h6 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  #hero h6 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    text-align: center;
   }
 }
 
